@@ -9,7 +9,7 @@ public class Destroyer : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        if (transform.position.x < min_lim || transform.position.x > max_lim) {
+        if (transform.position.x < min_lim || transform.position.x > max_lim){
             Destroy(gameObject);
             //Debug.Log("DESTROYED!"+gameObject);
         }
